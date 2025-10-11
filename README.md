@@ -1,4 +1,4 @@
-# Angular Template Creation: <a href="https://jmmonjeremy.github.io/project-template/" target="_blank">Wk1 Section1 Task1</a>
+# Angular Contacts App: <a href="https://jmmonjeremy.github.io/cms-1a/" target="_blank">Wk2 1st Assignment</a>
 Repository for my BYUI WDD 430 Web Full-Stack Development class
 # ProjectTemplate
 

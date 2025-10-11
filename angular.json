@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "project-template": {
+    "cms-1a": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "cms",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -69,10 +69,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "project-template:build:production"
+              "buildTarget": "cms-1a:build:production"
             },
             "development": {
-              "buildTarget": "project-template:build:development"
+              "buildTarget": "cms-1a:build:development"
             }
           },
           "defaultConfiguration": "development"
