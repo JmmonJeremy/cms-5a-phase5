@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { Contact } from './contact.model'
+
 @Component({
   selector: 'cms-contacts',
   standalone: false,
@@ -7,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './contacts.css'
 })
 export class Contacts {
+  selectedContact: Contact;
 
 }
