@@ -18,7 +18,8 @@ currentSender: string = "Jeremy Troy Suchanski";
     const msgSubject = this.subjectInputRef.nativeElement.value;
     const msgText = this.msgTextInputRef.nativeElement.value;
     const message = new Message(1, msgSubject, msgText, this.currentSender);  
-    this.addMessageEvent.emit(message);  
+    this.addMessageEvent.emit(message);
+    this.onClear();  
   }
 
   onClear(){
