@@ -5,7 +5,9 @@
     </div>
     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
       <span>
-        <img src="{{ contact.imageUrl }}" alt="Picture of {{ contact.name }}" class="img-responsive" style="max-height: 100px;">
+        <img *ngIf="contact.imageUrl.trim() !== ''" 
+        src="{{ contact.imageUrl }}" alt="Picture of {{ contact.name }}" 
+        class="img-responsive" style="max-height: 100px;">
       </span> 
       <div>
         <a href="#"  class="btn btn-primary">Edit</a>
